@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Contact Us</title>
+    <link rel=" stylesheet" href="Contact.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="logo">
+          <img src="kashif.jpg">
+          <div class="container">
+          </div>
+          
+              <ul class="nav-links">
+                <li><a href="head.html">Home</a></li>
+                <li><a href="Upload.php">Media</a></li>
+                <li><a href="Contact.html">Contact</a></li>
+              </ul>
+              <div class="search-box">
+                  <input type="search" id="search-input" placeholder="Search The World....">
+                  <button id="search-btn">Search</button>
+              </div>
+          </div>
+          <div class="logout"><a href="login.php">Logout</a></div>
+      </nav>
+    <h1>Contact Us</h1>
+    <form method="post" action="Contact.php">
+        <label for="name">Name:</label>
+        <input class="inputername" type="text" name="name" id="name" required>
+        <label for="email">Email:</label>
+        <input class="inputemail" type="email" name="email" id="email" required>
+        <label for="message">Message:</label>
+        <textarea class="inputermess" name="message" id="message" required></textarea>
+        <button class="sub" type="submit">Submit</button>
+    </form>
+    <footer class="footer"></footer>
+            <div class="footer-content">
+              <p>&copy; 2024 AK Photo Stock. All rights reserved.</p>
+              <ul class="footer-links">
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Contact Us</a></li>
+                <li><a href="#">Terms of Use</a></li>
+                <li><a href="#">Privacy Policy</a></li>
+              </ul>
+            </div>
+          </footer>
+    <script src="hed.js"></script>
+</body>
+</html>

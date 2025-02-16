@@ -1,0 +1,84 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-image: url('lake-mountains-rocks-sunrise-daylight-scenery-illustration-3840x2160-3773.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover ;
+    color: rgb(171, 168, 168);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+section{
+    position: relative;
+    max-width: 400px;
+    background-color: transparent;
+    border: 2px solid rgba(red, green, blue, alpha);
+    border-radius: 20px;
+    backdrop-filter: blur(55px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem 3rem;
+    box-shadow: 2px 10px 14px rgba(25, 41, 90, 0.5);
+}
+
+.inputbox .email{
+    display: flex;
+    flex-direction: column;
+
+}
+
+.inputbox .email input{
+    height: 25px;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    padding-left: 5px;
+    border-radius: 20px;
+}
+
+.inputbox .name input{
+    height: 25px;
+    padding-left: 10px;
+    border-radius: 20px;
+    color: blueviolet;
+}
+h1:hover{
+    color: rgb(46, 76, 153);
+}
+.reset{
+    padding: auto;
+    justify-content: space-between;
+}
+.su{
+    margin-top: 30px;
+    border-radius: 20px;
+    color: rgb(173, 147, 198);
+    background-color: rgb(27, 12, 12);
+    padding: 24px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: larger;
+    
+}
+
+.name.text{
+    color: blueviolet;
+}
+.inputbox .name:hover{
+    border-color: rgb(7, 5, 3);
+}
+.sub{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    
+}
+.box{
+    display: flex;
+    justify-content: space-between;
+}
+.kas{
+    border-radius: 10px;
+    font-size: larger;
+}

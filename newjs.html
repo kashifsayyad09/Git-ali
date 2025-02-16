@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <script src='angular.min.js'></script>
+    <script type="text/javascript"> 
+        var app = angular.module("StudentApp",[]);
+        app.controller("StudentInfo",function($scope){
+         $scope.student = {sid:101,s_name:'kashif'}
+        })
+    </script>
+</head>
+<body ng-app="StudentApp" ng-controller="StudentInfo">
+    <table>
+        <tr>
+            <td>
+                SID
+            </td>
+            <td>S_NAME</td>
+        </tr>
+        <tr>
+            <td>{{ student.sid }}</td> 
+            <td>{{ student.s_name}}</td>
+        </tr>
+    </table>
+</body>
+</html>
